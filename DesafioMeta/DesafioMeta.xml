@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>DesafioHubConexa</name>
+	</assembly>
+	<members>
+		<member name="M:DesafioHubConexa.Controllers.OpenWeatherMapController.BuscarTemperaturaPorCidade(System.String)">
+			<summary>
+				Obtenha Temperatura por nome da cidade
+			</summary>
+			<param name="cidade">Ex: New York</param>
+			<returns></returns>
+		</member>
+		<member name="M:DesafioHubConexa.Controllers.OpenWeatherMapController.BuscarTemperaturaPorGeolocalizacao(System.Single,System.Single)">
+			<summary>
+				Obtenha Temperatura por Geolocalização
+			</summary>
+			<param name="latitude">EX: 33.9</param>
+			<param name="longitude">Ex: 90.5</param>
+			<returns></returns>
+		</member>
+		<member name="M:DesafioHubConexa.Controllers.OpenWeatherMapController.BuscarHistoricoPorGeolocalizacao(System.Single,System.Single)">
+			<summary>
+				Obtenha Historico de Temperatura por Geolocalização
+			</summary>
+			<param name="latitude">EX: 33.9</param>
+			<param name="longitude">Ex: 90.5</param>
+			<returns></returns>
+		</member>
+	</members>
+</doc>
